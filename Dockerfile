@@ -8,8 +8,7 @@ COPY imageTrivyScanner.sh .
 COPY filesystemTrivyScanner.sh .
 COPY repoTrivyScanner.sh .
 
-COPY functions.sh .
-COPY log-functions.sh .
+COPY BP-BASE-SHELL-STEPS .
 ENV IMAGE_NAME registry.buildpiper.in/trivy-scan
 ENV IMAGE_TAG 1.2
 ENV ACTIVITY_SUB_TASK_CODE BP-TRIVY-TASK
